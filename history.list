@@ -1,0 +1,11 @@
+source venv/bin/activate
+cd todoapp
+python manage.py startapp frontend
+mkdir -p ./frontend/src/components
+mkdir -p ./frontend/{static,templates}/frontend
+npm init -y
+sudo npm i -D webpack webpack-cli
+echo -e "\n#NodeJS\nnode_modules" >> ../.gitignore 
+sudo npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react babel-plugin-transform-class-properties
+sudo npm i react react-dom prop-types
+
