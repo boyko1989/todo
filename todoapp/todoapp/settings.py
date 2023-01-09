@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'todo.apps.TodoConfig',
     'rest_framework',
+    'frontend.apps.FrontendConfig'
 ]
 
 MIDDLEWARE = [
