@@ -21,23 +21,23 @@ export class Header extends Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Домашняя
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Features
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Pricing
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Цены
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+              <li className="nav-item">
+                <a className="nav-link disabled">Disabled</a>
               </li>
             </ul>
           </div>
